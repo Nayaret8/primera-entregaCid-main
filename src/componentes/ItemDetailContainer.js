@@ -10,14 +10,6 @@ const ItemDetailContainer = () => {
     const [producto, setProducto] = useState({})
 
     const {id} = useParams ()
-
-    /*let test = db.collection('items')
-    .doc(id)
-     .get()
-     .then(doc=>{
-      const data = doc.data();
-                
-    });*/
     
 
     useEffect ( () => {
